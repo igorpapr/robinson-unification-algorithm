@@ -1,19 +1,30 @@
 package unification;
 
 public class HeadAndTailHolder {
-    private final String head;
-    private final String tail;
+    private Term head;
+    private Term tail;
 
-    public HeadAndTailHolder(String head, String tail) {
+    public HeadAndTailHolder() {
+    }
+
+    public HeadAndTailHolder(Term head, Term tail) {
         this.head = head;
         this.tail = tail;
     }
 
-    public String getHead() {
+    public void setHead(Term head) {
+        this.head = head;
+    }
+
+    public void setTail(Term tail) {
+        this.tail = tail;
+    }
+
+    public Term getHead() {
         return head;
     }
 
-    public String getTail() {
+    public Term getTail() {
         return tail;
     }
 }

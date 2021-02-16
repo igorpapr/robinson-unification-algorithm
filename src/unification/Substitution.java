@@ -1,19 +1,19 @@
 package unification;
 
 public class Substitution {
-    private final String target;
-    private final String replacement;
+    private final Term target;
+    private final Term replacement;
 
-    public Substitution(String target, String replacement) {
+    public Substitution(Term target, Term replacement) {
         this.target = target;
         this.replacement = replacement;
     }
 
-    public String getTarget() {
+    public Term getTarget() {
         return target;
     }
 
-    public String getReplacement() {
+    public Term getReplacement() {
         return replacement;
     }
 

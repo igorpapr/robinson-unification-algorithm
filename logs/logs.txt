@@ -1,0 +1,22 @@
+========================================================
+----------RESULT OF N = 1 ----------
+Number of substitutions: 3
+[{X1 / F(X0,X0)}, {Y1 / F(Y0,Y0)}, {Y0 / X0}]
+========================================================
+----------RESULT OF N = 2 ----------
+Number of substitutions: 5
+[{X1 / F(X0,X0)}, {X2 / F(F(X0,X0),F(X0,X0))}, {Y1 / F(X0,X0)}, {Y2 / F(F(X0,X0),F(X0,X0))}, {Y0 / X0}]
+========================================================
+----------RESULT OF N = 3 ----------
+Number of substitutions: 7
+[{X1 / F(X0,X0)}, {X2 / F(F(X0,X0),F(X0,X0))}, {X3 / F(F(F(X0,X0),F(X0,X0)),F(F(X0,X0),F(X0,X0)))}, {Y1 / F(X0,X0)}, {Y2 / F(F(X0,X0),F(X0,X0))}, {Y3 / F(F(F(X0,X0),F(X0,X0)),F(F(X0,X0),F(X0,X0)))}, {Y0 / X0}]
+========================================================
+----------RESULT OF N = 4 ----------
+Number of substitutions: 9
+[{X1 / F(X0,X0)}, {X2 / F(F(X0,X0),F(X0,X0))}, {X3 / F(F(F(X0,X0),F(X0,X0)),F(F(X0,X0),F(X0,X0)))}, {X4 / F(F(F(F(X0,X0),F(X0,X0)),F(F(X0,X0),F(X0,X0))),F(F(F(X0,X0),F(X0,X0)),F(F(X0,X0),F(X0,X0))))}, {Y1 / F(X0,X0)}, {Y2 / F(F(X0,X0),F(X0,X0))}, {Y3 / F(F(F(X0,X0),F(X0,X0)),F(F(X0,X0),F(X0,X0)))}, {Y4 / F(F(F(F(X0,X0),F(X0,X0)),F(F(X0,X0),F(X0,X0))),F(F(F(X0,X0),F(X0,X0)),F(F(X0,X0),F(X0,X0))))}, {Y0 / X0}]
+========================================================
+----------RESULT OF N = 5 ----------
+Number of substitutions: 11
+[{X1 / F(X0,X0)}, {X2 / F(F(X0,X0),F(X0,X0))}, {X3 / F(F(F(X0,X0),F(X0,X0)),F(F(X0,X0),F(X0,X0)))}, {X4 / F(F(F(F(X0,X0),F(X0,X0)),F(F(X0,X0),F(X0,X0))),F(F(F(X0,X0),F(X0,X0)),F(F(X0,X0),F(X0,X0))))}, {X5 / F(F(F(F(F(X0,X0),F(X0,X0)),F(F(X0,X0),F(X0,X0))),F(F(F(X0,X0),F(X0,X0)),F(F(X0,X0),F(X0,X0)))),F(F(F(F(X0,X0),F(X0,X0)),F(F(X0,X0),F(X0,X0))),F(F(F(X0,X0),F(X0,X0)),F(F(X0,X0),F(X0,X0)))))}, {Y1 / F(X0,X0)}, {Y2 / F(F(X0,X0),F(X0,X0))}, {Y3 / F(F(F(X0,X0),F(X0,X0)),F(F(X0,X0),F(X0,X0)))}, {Y4 / F(F(F(F(X0,X0),F(X0,X0)),F(F(X0,X0),F(X0,X0))),F(F(F(X0,X0),F(X0,X0)),F(F(X0,X0),F(X0,X0))))}, {Y5 / F(F(F(F(F(X0,X0),F(X0,X0)),F(F(X0,X0),F(X0,X0))),F(F(F(X0,X0),F(X0,X0)),F(F(X0,X0),F(X0,X0)))),F(F(F(F(X0,X0),F(X0,X0)),F(F(X0,X0),F(X0,X0))),F(F(F(X0,X0),F(X0,X0)),F(F(X0,X0),F(X0,X0)))))}, {Y0 / X0}]
+ELAPSED TIME: 
+Miliseconds: 78
